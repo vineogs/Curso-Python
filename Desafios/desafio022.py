@@ -1,0 +1,7 @@
+nome = input("Digite seu nome completo: ")
+print("{}".format(nome.upper()))
+print("{}".format(nome.lower()))
+completo = len(''.join(nome.split()))
+print("Quantidade de letras sem espaço: {}".format(completo))
+primeiro = nome.split()
+print("Quantidade de letras do primeiro nome: {}".format(len(primeiro[0])))
